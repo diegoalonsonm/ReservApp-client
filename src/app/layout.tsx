@@ -6,7 +6,7 @@ export const metadata ={
     description: "This is the home page"
 }
 
-const RootLayout = ({children}) => {
+const RootLayout = ({children}: any) => {
     return (
         <html lang="en">
             <body>
