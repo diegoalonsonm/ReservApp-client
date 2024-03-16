@@ -1,0 +1,39 @@
+body {
+    background: azure;
+}
+
+.w-sm-75{
+    @media (min-width: 450px) {
+        width: 50%;
+    }
+    width: 75%;
+}
+
+.bg-nf {
+    background-color: #e5f6fa;
+}
+
+.hero {
+    height: 350px;
+    @media (min-width: 450px) {
+        height: 500px;
+    }
+}
+
+.btn-primary {
+    background-color: #e5f6fa;
+    border-color: #e5f6fa;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #cad8db;
+    border-color: #cad8db;
+    color: black;
+}
+
+.btn-primary:active {
+    background-color: #e5f6fa !important;
+    border-color: #e5f6fa !important;
+    color: black;
+}
